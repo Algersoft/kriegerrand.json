@@ -7,9 +7,9 @@
     "coinDecimalPlaces": 6,
     "coinDifficultyTarget": 66,
 
-    "daemonType": "bytecoin",
-    "cnAlgorithm": "cryptonight_light",
-    "cnVariant": 1,
+    "daemonType": "turtlecoin",
+    "cnAlgorithm": "cryptonight-turtle-light",
+    "cnVariant": 2,
     "cnBlobType": 2,
 
     "logging": {
@@ -212,7 +212,7 @@
             "auth": {
                 "user": "username",
                 "pass": "password"
-            },
+            },TEL
             "tls": {
                 "rejectUnauthorized": false
             }
@@ -224,12 +224,12 @@
     },
 
     "telegram": {
-        "enabled": false,
-        "botName": "",
-        "token": "",
-        "channel": "",
+        "enabled": true,
+        "botName": "@doctorkriegerbot",
+        "token": "774629871:AAEI4OrjiGjICnD8y6WuY_f8a1dWywHlicE",
+        "channel": "https://t.me/kriegerrand",
         "channelStats": {
-            "enabled": false,
+            "enabled": true,
             "interval": 30
         },
         "botCommands": {
